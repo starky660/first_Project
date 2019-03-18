@@ -1,0 +1,221 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Header*/
+
+header{
+    position: relative;
+    padding: 20px;
+}
+
+.logo{
+    float: left;
+}
+
+.logo img{
+    width: 50%;
+}
+
+.header-try-it-btn button{
+    float: right;
+    color: #ff52bf;
+    background-color: white;
+    border: 1px solid #ff52bf;
+    padding: 5px 10px 5px 10px;
+    border-radius: 9%;
+}
+
+/*Main content*/
+
+.main-text{
+    text-align: center;
+}
+
+.main-text h1{
+    padding-top: 70px;
+}
+
+.main-text p{
+    padding: 0px 50px 0px 50px;
+}
+
+.main-text button{
+    display: none;
+}
+
+figure{
+    text-align: center;
+}
+
+figure img{
+    padding-top: 20px;
+    width: 80%;
+}
+
+/*Section-2*/
+
+.section-2{
+    background-color: #e3e6e8;
+}
+
+.section-2 figure img{
+    width: 90%;
+    padding-top: 60px;
+}
+
+.section-2-text{
+    padding: 30px 20px 30px 20px;
+}
+
+/*Section-3*/
+.section-3{
+    text-align: center;
+    padding: 10px 20px 50px 10px;
+}
+
+.section-3 button{
+    background-color: #ff52bf;
+    border: 1px solid #ff52bf;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5%;
+    color: white;
+}
+
+/*Footer*/
+
+footer{
+    background-color: #00252e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;    
+}
+
+.footer-1-4{
+    padding: 40px 20px 20px 20px;
+}
+
+.footer-1-4 input{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+}
+
+.footer-1-4 button{
+    padding: 10px;
+    margin-left: -40px;
+    border: none;
+    background-color: #ff52bf;
+    justify-content: center;
+}
+
+.footer-2-4{
+    padding: 30px 20px 0px 20px;
+}
+
+.social-media{
+    font-size: 3em;
+}
+
+.social-media i{
+    padding-left: 20px;
+}
+
+.footer-3-4 ul{
+    list-style:none;
+    padding-left: 20px;
+}
+
+.footer-4-4 ul{
+    list-style:none;
+    padding-left: 20px;
+}
+
+.bottom-background{
+    padding-bottom: 0;
+    line-height: 0;
+}
+
+.bottom-background img{
+    width: 100%;
+}
+
+@media only screen and (min-width: 862px){
+    .logo img{
+        width: 100%;
+    }
+
+    .header-try-it-btn button{
+        padding: 5px 20px 5px 20px;
+    }
+
+    .main-text{
+        padding: 0 200px 0 200px;
+    }
+
+    .main-text button{
+        display: inline;
+        background-color: #ff52bf;
+        border: 1px solid #ff52bf;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5%;
+        color: white;
+    }
+    
+    .section-2{
+        display: flex;
+        align-items: center;
+        background-color: white;
+    }
+
+    .section-3{
+        padding: 30px 20px 100px 20px;
+    }
+
+    footer{
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url(images/bg-footer-desktop.png);
+    }
+    .footer-2-4{
+        width: 350px;
+    }
+
+    .bottom-background img{
+        display: none;        
+    }
+
+    .social-media{
+        font-size: 2em;
+    }
+
+    .social-media i{
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+
+    .footer-1-4{
+        padding: 0px 0px 0px 20px;
+    }
+
+    .footer-3-4 ul{
+        padding: 0;
+    }
+
+    .footer-4-4 ul{
+        padding: 0;
+    }
+
+    .footer-3-4 li{
+        margin: 0 0 3px 0;
+    }
+
+    .footer-4-4 li{
+        margin: 0 0 3px 0;
+    }
+}
